@@ -1,0 +1,65 @@
+#header{
+	background-color: black;
+
+	height:120px;
+	width:100%;
+
+	position:fixed;
+
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+#headerContent{
+	background-color:green;
+
+	height:100px;
+	width:1000px;
+
+	position:relative;
+	display:inline-block;
+
+	margin:10px auto;
+	border:0;
+	padding:0;
+}
+
+#logo{
+	background-color:red;
+
+	height:90px;
+	width:100px;
+
+	position:relative;
+	display:inline-block;
+
+	margin:5px auto 5px 5px;
+	border:0;
+	padding:0;
+}
+
+#headerButtons{
+	background-color:blue;
+
+	list-style:none;
+	display:inline-block;
+	position:relative;
+
+	margin:15px auto;
+	border:0;
+	padding:0;
+}
+
+#headerButtons li{
+	background-color:green;
+
+	height:30px;
+
+	font-weight:bold;
+	display:inline-block;
+
+	margin:20px 10px;
+	border:0;
+	padding:2px;
+}
