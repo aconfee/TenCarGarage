@@ -11,3 +11,6 @@ Phantom & Casper JS
 BackboneJS
 SQL
 Azure
+PixiJS
+NodeJS
+ExpressJS
