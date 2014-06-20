@@ -1,0 +1,56 @@
+#contentWrap{
+	background-color:silver;
+
+	width:59%;
+	height:auto;
+
+	display:block;
+
+	margin:10px auto;
+	border:1px solid red;
+	padding:5px;
+}
+
+.reviewPost{
+	background-color:yellow;
+
+	margin:0 auto;
+	border:0;
+	padding:0;
+}
+
+.reviewPost img{
+	margin:5px;
+}
+
+.reviewDescriptor{
+	background-color:black;
+
+	width:20%;
+	height:25%;
+
+	position:relative;
+	display:inline-block;
+
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+.reviewText{
+	background-color: green;
+
+	color:blue;
+}
+
+.fullText{
+	width:20%;
+	height:25%;
+
+	position:relative;
+	display:inline-block;
+
+	margin:0 80% 0 0;
+	border:0;
+	padding:0;
+}

@@ -1,4 +1,4 @@
-#header{
+#headerWrap{
 	background-color: black;
 
 	height:120px;
@@ -6,7 +6,7 @@
 
 	position:fixed;
 
-	margin:0;
+	margin:-10px;
 	border:0;
 	padding:0;
 }
@@ -15,10 +15,9 @@
 	background-color:green;
 
 	height:100px;
-	width:1000px;
+	width:60%;
 
 	position:relative;
-	display:inline-block;
 
 	margin:10px auto;
 	border:0;
@@ -42,11 +41,14 @@
 #headerButtons{
 	background-color:blue;
 
+	height:auto;
+	width:auto;
+
+	position:relative;
 	list-style:none;
 	display:inline-block;
-	position:relative;
 
-	margin:15px auto;
+	margin:0px 0;
 	border:0;
 	padding:0;
 }
@@ -54,12 +56,15 @@
 #headerButtons li{
 	background-color:green;
 
-	height:30px;
+	height:20px;
+	width:auto;
 
 	font-weight:bold;
-	display:inline-block;
 
-	margin:20px 10px;
+	display:inline-block;
+	list-style:none;
+
+	margin:15px 5px;
 	border:0;
 	padding:2px;
 }
