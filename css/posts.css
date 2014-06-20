@@ -3,13 +3,15 @@
 
 	display:block;
 
-	margin:10px auto;
-	border:1px solid silver;
+	margin:20px auto;
+	border:0;
 	padding:5px;
 }
 
 .reviewPost{
-	margin:0 auto;
+	border:5px solid red;
+
+	margin:20px auto;
 	border:0;
 	padding:0;
 }
@@ -18,42 +20,53 @@
 	width:100%;
 	height:auto;
 
+	border:5px solid red;
+
 	display:block;
 
-	margin:auto;
+	margin:0 0;
 	border:0;
-	padding:0;
+	padding:0px;
+}
+
+.reviewBox{
+	border:2px solid silver;
 }
 
 .reviewDescriptor{
 	background-color:#bc9850;
 	color:white;
-
-	width:auto;
-	height:20%;
+	font-weight:bold;
+	font-size:1.2em;
 
 	position:relative;
 	display:inline-block;
 
-	margin:5%;
+	margin:20px 0 20px 20px;
 	border:0;
-	padding:0;
+	padding:10px 10px;
 }
 
 .reviewText{
-	background-color: green;
+	color:black;
+	font-size:1.1em;
 
-	color:blue;
+	margin:0 0 0 20px;
+	border:0;
+	padding:0;
 }
 
 .fullText{
-	width:20%;
-	height:25%;
+	background-color: #848383;
+	color:white;
+
+	font-weight:bold;
+	font-size:1.2em;
 
 	position:relative;
 	display:inline-block;
 
-	margin:0 80% 0 0;
+	margin:20px 20px 20px 78%;
 	border:0;
-	padding:0;
+	padding:10px 6%;
 }
