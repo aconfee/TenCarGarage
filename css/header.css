@@ -12,12 +12,10 @@
 }
 
 #headerContent{
-	background-color:green;
+	background-color:black;
 
 	height:120px;
-	width:60%;
-
-	position:relative;
+	display:block;
 
 	margin:0 auto;
 	border:0;
@@ -25,8 +23,6 @@
 }
 
 #logo{
-	background-color:red;
-
 	height:120px;
 	width:auto;
 
@@ -39,32 +35,38 @@
 }
 
 #headerButtons{
-	background-color:blue;
+	background-color:black;
 
-	height:auto;
-	width:auto;
+	width:68%;
 
-	position:relative;
 	list-style:none;
-	display:inline-block;
+	float:right;
 
-	margin:0px 0;
+	margin:90px 0 0 0;
 	border:0;
 	padding:0;
 }
 
-#headerButtons li{
-	background-color:green;
-
-	height:20px;
-	width:auto;
+#headerButtons a{
+	background-color:black;
 
 	font-weight:bold;
+	color:#bc9850;
+	font-size: 1.25em;
 
-	display:inline-block;
+	float:right;
+
 	list-style:none;
 
-	margin:15px 5px;
+	margin:0 0 0 6.8%;
 	border:0;
-	padding:2px;
+	padding:0px;
+}
+
+#headerButtons a:hover{
+	border-style: solid;
+	border-top-color:silver;
+	border-bottom-color:silver;
+	border-top-width: 1px;
+	border-bottom-width:2px;
 }

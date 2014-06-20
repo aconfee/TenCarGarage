@@ -1,26 +1,21 @@
 #contentWrap{
-	background-color:silver;
-
-	width:59%;
 	height:auto;
 
 	display:block;
 
 	margin:10px auto;
-	border:1px solid red;
+	border:1px solid silver;
 	padding:5px;
 }
 
 .reviewPost{
-	background-color:yellow;
-
 	margin:0 auto;
 	border:0;
 	padding:0;
 }
 
 .reviewPost img{
-	width:90%;
+	width:100%;
 	height:auto;
 
 	display:block;
@@ -31,15 +26,16 @@
 }
 
 .reviewDescriptor{
-	background-color:black;
+	background-color:#bc9850;
+	color:white;
 
-	width:20%;
-	height:25%;
+	width:auto;
+	height:20%;
 
 	position:relative;
 	display:inline-block;
 
-	margin:0;
+	margin:5%;
 	border:0;
 	padding:0;
 }
