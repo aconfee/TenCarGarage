@@ -20,7 +20,14 @@
 }
 
 .reviewPost img{
-	margin:5px;
+	width:90%;
+	height:auto;
+
+	display:block;
+
+	margin:auto;
+	border:0;
+	padding:0;
 }
 
 .reviewDescriptor{

@@ -14,12 +14,12 @@
 #headerContent{
 	background-color:green;
 
-	height:100px;
+	height:120px;
 	width:60%;
 
 	position:relative;
 
-	margin:10px auto;
+	margin:0 auto;
 	border:0;
 	padding:0;
 }
@@ -27,13 +27,13 @@
 #logo{
 	background-color:red;
 
-	height:90px;
-	width:100px;
+	height:120px;
+	width:auto;
 
 	position:relative;
 	display:inline-block;
 
-	margin:5px 5px 5px 5px;
+	margin:0;
 	border:0;
 	padding:0;
 }
