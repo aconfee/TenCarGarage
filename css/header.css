@@ -39,7 +39,6 @@
 
 	width:68%;
 
-	list-style:none;
 	float:right;
 
 	margin:90px 0 0 0;
@@ -50,13 +49,10 @@
 #headerButtons a{
 	background-color:black;
 
-	font-weight:bold;
 	color:#bc9850;
 	font-size: 1.25em;
 
 	float:right;
-
-	list-style:none;
 
 	margin:0 0 0 6.8%;
 	border:0;
