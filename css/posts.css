@@ -9,8 +9,6 @@
 }
 
 .reviewPost{
-	border:5px solid red;
-
 	margin:20px auto;
 	border:0;
 	padding:0;
@@ -20,8 +18,6 @@
 	width:100%;
 	height:auto;
 
-	border:5px solid red;
-
 	display:block;
 
 	margin:0 0;
@@ -30,14 +26,21 @@
 }
 
 .reviewBox{
-	border:2px solid silver;
+	border:1px solid silver;
+}
+
+.blockHeader{
+	color:white;
+	font-weight:bold;
+	font-size:1em;
+}
+
+.blockHeader:hover{
+	cursor:pointer;
 }
 
 .reviewDescriptor{
 	background-color:#bc9850;
-	color:white;
-	font-weight:bold;
-	font-size:1.2em;
 
 	position:relative;
 	display:inline-block;
@@ -49,23 +52,29 @@
 
 .reviewText{
 	color:black;
-	font-size:1.1em;
+	font-size:1em;
+
+	max-height:200px;
+
+	/*overflow:auto;*/
 
 	margin:0 0 0 20px;
 	border:0;
 	padding:0;
 }
 
-.fullText{
+.moreText{
 	background-color: #848383;
-	color:white;
-
-	font-weight:bold;
-	font-size:1.2em;
 
 	display:inline-block;
 
 	margin:20px 20px 20px 78%;
 	border:0;
-	padding:10px 6%;
+	padding:10px 6%
+}
+
+.gradientOverlay{
+  	background: -webkit-linear-gradient(bottom, #ffffff, #000000);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
