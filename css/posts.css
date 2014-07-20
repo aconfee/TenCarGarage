@@ -8,10 +8,16 @@
 	padding:5px;
 }
 
+.halfPage{
+	width:47%;
+	max-width:480px;
+	display:inline-block;
+}
+
 .reviewPost{
 	margin:20px auto;
 	border:0;
-	padding:0;
+	padding:0 10px;
 }
 
 .reviewPost img{
@@ -70,6 +76,7 @@
 	display:inline-block;
 
 	/*overflow:auto;*/
+	overflow:hidden;
 
 	margin:0 20px 20px 20px;
 	border:0;

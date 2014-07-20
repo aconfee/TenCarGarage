@@ -6,15 +6,18 @@ $(document).ready(function(){
 	$reviewText = $('.reviewText');
 
 	$reviewText.click(function(){
-		if($reviewText.css('max-height') === '200px'){
-			$reviewText.removeClass('gradientOverlay');
-			//$reviewText.css('max-height', 'auto');
-			$reviewText.css('max-height', '500px');
-			//$reviewText.animate({height:'500px'}, 500);
+		$maxHeight = parseFloat($(window).height()) * 0.8;
+		$maxHeight = $maxHeight.toString();
+
+		if($(this).css('max-height') === '200px'){
+			$(this).removeClass('gradientOverlay');
+			$(this).css('max-height', $maxHeight);
+			$(this).css('overflow', 'auto');
 		}
 		else{
-			$reviewText.addClass('gradientOverlay');
-			$reviewText.css('max-height', '200px');
+			$(this).addClass('gradientOverlay');
+			$(this).css('max-height', '200px');
+			$(this).css('overflow', 'hidden');
 		}
 	});
 });
